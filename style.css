@@ -95,7 +95,9 @@ nav a.active, a:hover {
 
 .fa-solid {
     font-size: 200%;
+    width: 50px;
     text-shadow: -2px -5px #1D2B2E, 2px -5px #1D2B2E;
+    text-align: left;
 }
 
 .content {
@@ -200,6 +202,9 @@ em {
     em {
         display: block;
         font-style: normal;
+    }
+    .fa-solid {
+        text-align: center;
     }
 
 }

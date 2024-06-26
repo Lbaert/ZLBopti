@@ -6,7 +6,7 @@
     src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
 }
 
-body {
+html, body {
     background-color: #171717;
     color: white;
     font-family: 'Poppins', sans-serif, 'Courier New', Courier, monospace;
@@ -14,6 +14,10 @@ body {
     padding: 0;
     text-align: center;
     max-width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header, footer {
@@ -142,6 +146,13 @@ details p {
 }
 
 @media (max-width: 600px) {
+    .logo h1:nth-last-child(2) {
+        width: 100px;
+    }
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        height: auto;
+    }
     nav a {
         margin: 0;
         padding: 10px;

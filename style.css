@@ -26,7 +26,7 @@ body {
 }
 
 header, footer {
-    margin: 20px;
+    margin: 20px 0;
 }
 .footer {
     display: flex;
@@ -38,7 +38,7 @@ header, footer {
     padding-left: 10px;
 }
 footer .fa-discord {
-    background-color: #212121;
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 30px 15px;
     border-radius: 20px;
 }
@@ -86,7 +86,7 @@ nav a {
     margin: 10px;
     padding: 10px 20px;
     font-size: larger;
-    background: #212121;
+    background: rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 nav a.active, a:hover {
@@ -176,12 +176,13 @@ em {
         height: auto;
     }
     nav a {
-        margin: 20px;
-        padding: 0;
+        margin: 5px;
+        padding: 10px 20px;
         display: inline-grid;
         font-size: 1em;
         width: 10vw;
-        background-color: #1F2A2C;
+        background: rgba(0, 0, 0, 0.25);
+        justify-content: center;
     }
     nav a span{
         display: none;
@@ -197,6 +198,7 @@ em {
     }
     em {
         display: block;
+        font-style: normal;
     }
 
 }

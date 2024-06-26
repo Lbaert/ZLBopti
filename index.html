@@ -51,6 +51,11 @@
         var elm=document.getElementsByTagName("html")[0];
         elm.style.display="none";
         document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+        if (document.fonts) {
+  document.fonts.load('1em Poppins').then(() => {
+    document.body.classList.add('fonts-loaded');
+  });
+}
     </script>
 
 

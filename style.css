@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #1d383e;
     color: white;
     font-family: 'Google Sans', sans-serif;
     margin: auto;
@@ -38,7 +38,7 @@ header, footer {
     padding-left: 10px;
 }
 footer .fa-discord {
-    background-color: #1D2B2E;
+    background-color: #1d383e;
     padding: 30px 15px;
     border-radius: 20px;
 }

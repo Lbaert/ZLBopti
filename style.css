@@ -17,14 +17,13 @@ body {
     cursor: crosshair;
 }
 
-header {
-    margin: 20px;
+header, footer {
+    margin: 5vh 0;
 }
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 .footer p {
     margin: 0;
@@ -180,7 +179,7 @@ details p {
         justify-content: center;
     }
     .content {
-        padding: 5vh 20px;
+        padding: 10vh 20px;
     }
     .content p {
         margin: 2vh 20px;

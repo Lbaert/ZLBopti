@@ -178,4 +178,13 @@ details p {
         align-items: center;
         justify-content: center;
     }
+    .content {
+        padding: 5vh 20px;
+    }
+    .content p {
+        margin: 2vh 20px;
+    }
+    header, footer {
+        margin: 5vh 0;
+    }
 }

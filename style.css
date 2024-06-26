@@ -21,7 +21,7 @@ html, body {
 }
 
 header, footer {
-    margin: 40px;
+    margin: 20px;
 }
 .footer {
     display: flex;
@@ -115,9 +115,6 @@ a {
     text-decoration: none;
 }
 
-.content p {
-    margin: 20px;
-}
 .paypal p {
     text-align: center;
     margin: 0;

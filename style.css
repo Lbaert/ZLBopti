@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #171717;
+    background-color: #1F2A2C;
     color: white;
     font-family: 'Google Sans', sans-serif;
     margin: auto;
@@ -57,17 +57,17 @@ i.fa-discord {
     letter-spacing: 5px;
     font-weight: 600;
     display: inline-block;
-    width: 80px;
+    width: 133px; 
 }
 .logo h1:nth-last-child(1) {
     letter-spacing: -5px;
     font-weight: 100;
     display: inline-block;
-    width: 80px;
+    width: 133px;
 }
 header h1 {
     margin: 0;
-    font-size: xxx-large;
+    font-size: 5em;
     color: orangered;
 }
 strong {
@@ -78,7 +78,7 @@ h1 {
     margin: 0;
 }
 nav {
-    padding: 20px;
+    padding: 20px 0;
 }
 nav a {
     color: whitesmoke;
@@ -86,11 +86,16 @@ nav a {
     margin: 10px;
     padding: 10px 20px;
     font-size: larger;
-    background-color: #212121;
+    background: #212121;
     border-radius: 20px;
 }
 nav a.active, a:hover {
     color: greenyellow;
+}
+
+.fa-solid {
+    font-size: 200%;
+    text-shadow: -2px -5px #212121, 2px -5px #212121;
 }
 
 .content {
@@ -147,6 +152,10 @@ details p {
     font-size:95%;
 }
 
+em {
+    display: none;
+}
+
 .background {
     position: fixed;
     top: 0;
@@ -161,17 +170,21 @@ details p {
 
 @media (max-width: 600px) {
     .logo h1:nth-last-child(2) {
-        width: 100px;
+        width: 133px;
     }
     body {
         height: auto;
     }
     nav a {
-        margin: 0;
-        padding: 10px;
-        margin: 0 5px;
-        display: block;
         margin: 20px;
+        padding: 0;
+        display: inline-grid;
+        font-size: 1em;
+        width: 10vw;
+        background-color: #1F2A2C;
+    }
+    nav a span{
+        display: none;
     }
     nav {
         padding: 0;
@@ -182,6 +195,10 @@ details p {
     .background {
         background-color: #171717;
     }
+    em {
+        display: block;
+    }
+
 }
 
 @media (min-height: 1000px) {

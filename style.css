@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #102626;
+    background-color: #0c2121;
     color: white;
     font-family: 'Google Sans', sans-serif;
     margin: auto;
@@ -177,7 +177,7 @@ em {
     }
     body {
         height: auto;
-        background-color: #102626;
+        background-color: #183739;
     }
     nav a {
         margin: 5px;
@@ -198,7 +198,7 @@ em {
         font-size: 1.2em;
     }
     .background {
-        background-color: #171717;
+        background: none;
     }
     em {
         display: block;

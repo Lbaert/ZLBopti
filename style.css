@@ -50,6 +50,13 @@ header h1 {
     font-size: xxx-large;
     color: orangered;
 }
+strong {
+    font-weight: normal;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
 nav {
     padding: 20px;
 }

@@ -12,7 +12,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Résultats d'Optimisation PC | Benchmarks et Avis | ZLBopti">
     <meta property="og:description" content="Découvrez les résultats de nos optimisations avec ZLBopti. À l'aide de l'outil CapFrameX, nous réalisons des benchmarks avant et après optimisation pour mesurer l'impact de nos interventions. Consultez les avis de nos clients et les performances améliorées.">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png" alt="Logo ZLBopti">
     <meta property="og:url" content="https://lbaert.github.io/ZLBopti/result/">
     <meta property="og:type" content="website">
 
@@ -20,10 +20,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Résultats d'Optimisation PC | Benchmarks et Avis | ZLBopti">
     <meta name="twitter:description" content="Découvrez les résultats de nos optimisations avec ZLBopti. À l'aide de l'outil CapFrameX, nous réalisons des benchmarks avant et après optimisation pour mesurer l'impact de nos interventions. Consultez les avis de nos clients et les performances améliorées.">
-    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png">
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png" alt="Logo ZLBopti">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://lbaert.github.io/ZLBopti/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/x-icon" href="https://lbaert.github.io/ZLBopti/favicon.ico" sizes="32x32" alt="Favicon ZLBopti">
         
     <!-- Stylesheets and Fonts -->
     <link rel="stylesheet" href="../style.css">
@@ -40,7 +40,13 @@
           "name": "Résultats d'Optimisation PC | Benchmarks et Avis | ZLBopti",
           "url": "https://lbaert.github.io/ZLBopti/result/",
           "description": "Découvrez les résultats de nos optimisations avec ZLBopti. À l'aide de l'outil CapFrameX, nous réalisons des benchmarks avant et après optimisation pour mesurer l'impact de nos interventions. Consultez les avis de nos clients et les performances améliorées.",
-          "image": "https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png",
+            "height": 512,
+            "width": 512,
+            "caption": "Logo de ZLBopti"
+          },
           "author": {
             "@type": "Organization",
             "name": "ZLBopti",
@@ -51,13 +57,52 @@
             "name": "ZLBopti",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png"
+              "url": "https://cdn.discordapp.com/attachments/1255089430528790598/1255115082061316167/android-chrome-512x512.png",
+              "alt": "Logo ZLBopti",
+              "height": 512,
+              "width": 512
             }
           },
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://lbaert.github.io/ZLBopti/result?search={search_term_string}",
-            "query-input": "required name=search_term_string"
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://lbaert.github.io/ZLBopti/result?search={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": "http://schema.org/True",
+              "valueName": "search_term_string"
+            }
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://lbaert.github.io/ZLBopti"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Acheter",
+                "item": "https://lbaert.github.io/ZLBopti/buy/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Résultats",
+                "item": "https://lbaert.github.io/ZLBopti/result/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "FAQ",
+                "item": "https://lbaert.github.io/ZLBopti/faq/"
+              }
+            ]
           }
         }
     </script>
@@ -73,22 +118,23 @@
             <nav>
                 <a href="https://lbaert.github.io/ZLBopti/"><i class="fa-solid fa-house"></i><span> Introduction</span></a>
                 <a href="https://lbaert.github.io/ZLBopti/buy/"><i class="fa-solid fa-cart-shopping"></i><span> Acheter</span></a>
-                <a class="active" href="https://lbaert.github.io/ZLBopti/result/"><i class="fa-solid fa-square-poll-vertical"></i></i><span> Résultat</span></a>
+                <a class="active" href="https://lbaert.github.io/ZLBopti/result/"><i class="fa-solid fa-square-poll-vertical"></i><span> Résultat</span></a>
                 <a href="https://lbaert.github.io/ZLBopti/faq/"><i class="fa-solid fa-question"></i><span> FAQ</span></a>
             </nav>
         </header>
         <main class="content">
+            <h1>Résultats des optimisations ZLBopti</h1>
             <h2>Résultats</h2>
             <p>À l'aide de l'outil <a href="#">CapFrameX</a>, nous réaliserons un benchmark avant optimisation et un autre après optimisation afin de quantifier et mesurer l'impact de l'optimisation.</p>
             <p>Ce processus nous permet d'identifier précisément les améliorations de performance apportées par nos interventions.</p>
             <ul>
-                <li><a href="#">Découvrez les avis de nos clients</a></li>
-                <li><a href="#">Découvrez les résultats obtenus par nos bench</a></li>
+                <li><a href="#"><strong>Découvrez les avis de nos clients</strong></a></li>
+                <li><a href="#"><strong>Découvrez les résultats obtenus par nos bench</strong></a></li>
             </ul>
         </main>
         <footer>
             <div class="footer">
-                <i class="fa-brands fa-discord fa-2xl"></i>
+                <i class="fa-brands fa-discord fa-2xl" alt="Discord ZLBopti"></i>
                 <p>ZLBopti &copy; 2024 <br>ID: #######-#</p>
             </div>
         </footer>

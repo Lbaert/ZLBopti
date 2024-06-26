@@ -95,7 +95,7 @@ nav a.active, a:hover {
 
 .fa-solid {
     font-size: 200%;
-    text-shadow: -2px -5px #212121, 2px -5px #212121;
+    text-shadow: -2px -5px rgba(0, 0, 0, 0.25), 2px -5px rgba(0, 0, 0, 0.25);
 }
 
 .content {
@@ -164,6 +164,7 @@ em {
     height: 100%;
     background: url('../ZLBopti/giphy.webp') no-repeat center center fixed;    
     background-size: cover;
+    mix-blend-mode: darken;
     opacity: 0.1;
     z-index: -1;
 }

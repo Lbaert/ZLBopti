@@ -34,8 +34,10 @@
     <script type="text/javascript">
         var elm=document.getElementsByTagName("html")[0];
         elm.style.display="none";
-        document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
-     </script>
+        document.addEventListener("DOMContentLoaded",function(event) { 
+            setTimeout(function(){ elm.style.display="block"; }, 50);
+        });
+        </script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">

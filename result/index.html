@@ -31,6 +31,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e75b3942b4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var elm=document.getElementsByTagName("html")[0];
+        elm.style.display="none";
+        document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+        if (document.fonts) {
+        document.fonts.load('1em Poppins').then(() => {
+        document.documentElement.classList.add('loaded');
+        });
+    }
+    </script>
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">

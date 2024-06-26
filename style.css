@@ -9,7 +9,7 @@
 body {
     background-color: #171717;
     color: white;
-    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif, 'Courier New', Courier, monospace;
     margin: auto;
     padding: 0;
     text-align: center;

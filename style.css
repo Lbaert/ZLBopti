@@ -76,6 +76,7 @@ strong {
 h1 {
     text-align: center;
     margin: 0;
+    font-size: 1.2em;
 }
 nav {
     padding: 20px 0;
@@ -85,7 +86,7 @@ nav a {
     text-decoration: none;
     margin: 10px;
     padding: 10px 20px;
-    font-size: larger;
+    font-size: 1.1em;
     background: #0f2b2b;
     border-radius: 20px;
 }
@@ -194,9 +195,6 @@ em {
     nav {
         padding: 0;
     }
-    h1 {
-        font-size: 1.2em;
-    }
     .background {
         background: none;
     }
@@ -225,5 +223,30 @@ em {
     }
     header, footer {
         margin: 5vh 0;
+    }
+}
+
+@media (max-width: 900px) {
+    nav a {
+        margin: 5px;
+        padding: 10px 20px;
+        display: inline-grid;
+        font-size: 1em;
+        width: 10vw;
+        background: #0f2b2b;
+        justify-content: center;
+    }
+    nav a span{
+        display: none;
+    }
+    nav {
+        padding: 0;
+    }
+    em {
+        display: block;
+        font-style: normal;
+    }
+    .fa-solid {
+        text-align: center;
     }
 }

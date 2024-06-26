@@ -179,6 +179,9 @@ details p {
     h1 {
         font-size: 1.2em;
     }
+    .background {
+        background-color: #171717;
+    }
 }
 
 @media (min-height: 1000px) {

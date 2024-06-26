@@ -172,9 +172,9 @@ details p {
     }
 }
 
-@media (min-height: 863px) {
+@media (min-height: 1000px) {
     html, body {
-        height: 90%;
+        height: 95%;
         display: flex;
         align-items: center;
         justify-content: center;

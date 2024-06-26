@@ -142,12 +142,6 @@ details p {
 }
 
 @media (max-width: 600px) {
-    .logo h1:nth-last-child(2) {
-        width: 100px;
-    }
-    body {
-        font-family: 'Courier New', Courier, monospace;
-    }
     nav a {
         margin: 0;
         padding: 10px;

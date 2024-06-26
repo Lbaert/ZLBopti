@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #162f2f;
+    background-color: #102626;
     color: white;
     font-family: 'Google Sans', sans-serif;
     margin: auto;
@@ -38,7 +38,7 @@ header, footer {
     padding-left: 10px;
 }
 footer .fa-discord {
-    background-color: #162f2f;
+    background-color: #102626;
     padding: 30px 15px;
     border-radius: 20px;
 }
@@ -86,7 +86,7 @@ nav a {
     margin: 10px;
     padding: 10px 20px;
     font-size: larger;
-    background: #162f2f;
+    background: #102626;
     border-radius: 20px;
 }
 nav a.active, a:hover {
@@ -96,7 +96,7 @@ nav a.active, a:hover {
 .fa-solid {
     font-size: 200%;
     width: 50px;
-    text-shadow: -2px -5px #162f2f, 2px -5px #162f2f;
+    text-shadow: -2px -5px #102626, 2px -5px #102626;
     text-align: left;
 }
 
@@ -121,7 +121,7 @@ nav a.active, a:hover {
     border: 1px solid grey;
     color: white;
     font-size: xx-large;
-    background-color: #162f2f;
+    background-color: #102626;
 }
 a {
     color: lightblue;
@@ -177,6 +177,7 @@ em {
     }
     body {
         height: auto;
+        background-color: #183739;
     }
     nav a {
         margin: 5px;
@@ -184,7 +185,7 @@ em {
         display: inline-grid;
         font-size: 1em;
         width: 10vw;
-        background: #162f2f;
+        background: #102626;
         justify-content: center;
     }
     nav a span{

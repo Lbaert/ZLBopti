@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    margin: 40px 20px 20px 20px;
+    margin: 20px;
 }
 .footer {
     display: flex;
@@ -96,6 +96,7 @@ nav a.active, a:hover {
 }
 .content p, .content ul {
     line-height: 1.5;
+    margin: 20px 0;
 }
 .button {
     display: flex;

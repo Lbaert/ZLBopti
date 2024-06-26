@@ -18,7 +18,7 @@ body {
 }
 
 header, footer {
-    margin: 5vh 0;
+    margin: 20px;
 }
 .footer {
     display: flex;
@@ -179,9 +179,12 @@ details p {
         justify-content: center;
     }
     .content {
-        padding: 10vh 20px;
+        padding: 5vh 20px;
     }
     .content p {
         margin: 2vh 20px;
+    }
+    header, footer {
+        margin: 5vh 0;
     }
 }

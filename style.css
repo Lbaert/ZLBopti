@@ -38,7 +38,7 @@ header, footer {
     padding-left: 10px;
 }
 footer .fa-discord {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #1D2B2E;
     padding: 30px 15px;
     border-radius: 20px;
 }
@@ -86,7 +86,7 @@ nav a {
     margin: 10px;
     padding: 10px 20px;
     font-size: larger;
-    background: rgba(0, 0, 0, 0.25);
+    background: #1D2B2E;
     border-radius: 20px;
 }
 nav a.active, a:hover {
@@ -95,7 +95,7 @@ nav a.active, a:hover {
 
 .fa-solid {
     font-size: 200%;
-    text-shadow: -2px -5px rgba(0, 0, 0, 0.25), 2px -5px rgba(0, 0, 0, 0.25);
+    text-shadow: -2px -5px #1D2B2E, 2px -5px #1D2B2E;
 }
 
 .content {
@@ -119,6 +119,7 @@ nav a.active, a:hover {
     border: 1px solid grey;
     color: white;
     font-size: xx-large;
+    background-color: #1D2B2E;
 }
 a {
     color: lightblue;
@@ -181,7 +182,7 @@ em {
         display: inline-grid;
         font-size: 1em;
         width: 10vw;
-        background: rgba(0, 0, 0, 0.25);
+        background: #1D2B2E;
         justify-content: center;
     }
     nav a span{

@@ -194,13 +194,12 @@ em {
 
 @media (max-width: 600px) {
     body {
-        background-color: #183739;
+        background-color: #102D2E;
     }
     nav a {
         margin: 5px;
         padding: 10px 20px;
         display: inline-grid;
-        background: #0b2323;
         justify-content: center;
     }
     nav a span{
@@ -224,7 +223,7 @@ em {
 
 @media (min-height: 1000px) {
     html, body {
-        height: 95%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;

@@ -134,8 +134,7 @@ nav a:hover {
     display: none;
 }
 .content p, .content ul {
-    line-height: 1.5;
-    margin: 20px 0;
+    line-height: 2vh;
 }
 .button {
     display: flex;

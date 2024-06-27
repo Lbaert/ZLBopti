@@ -230,7 +230,7 @@ em {
 
 @media (min-height: 1000px) {
     html, body {
-        height: 95%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;

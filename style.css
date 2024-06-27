@@ -85,7 +85,7 @@ i.fa-discord:hover {
 header h1 {
     margin: 0;
     font-size: 5em;
-    color: rgb(255, 69, 0);
+    color: #ff4500;
 }
 strong {
     font-weight: normal;
@@ -107,10 +107,10 @@ nav a {
     transition: transform 0.3s ease, filter 0.3s ease;
     display: inline-flex;
     align-items: center;
-    color: lightblue;
+    color: #add8e6;
 }
 nav a.active, nav a:hover {
-    color: greenyellow;
+    color: #adff2f;
 }
 nav a:hover {
     transform: scale(1.1);

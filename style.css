@@ -57,7 +57,7 @@ footer .linktree {
 }
 
 .linktree:hover {
-    filter: saturate(200%) hue-rotate(66.4deg) brightness(1.2);
+    filter: saturate(500%) hue-rotate(66.4deg) brightness(1.5);
     transform: scale(1.1);
 }
 
@@ -128,7 +128,6 @@ nav a:hover {
     font-size: 233%;
     width: 55px;
     display: inline-block;
-    text-shadow: 0px 8px #0b2323, 0px -8px #0b2323;
 }
 
 .content {

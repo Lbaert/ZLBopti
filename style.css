@@ -193,19 +193,13 @@ em {
 }
 
 @media (max-width: 600px) {
-    .logo h1:nth-last-child(2) {
-        width: 133px;
-    }
     body {
-        height: auto;
         background-color: #183739;
     }
     nav a {
         margin: 5px;
         padding: 10px 20px;
         display: inline-grid;
-        font-size: 1em;
-        width: 10vw;
         background: #0b2323;
         justify-content: center;
     }
@@ -245,12 +239,9 @@ em {
 
 @media (max-width: 900px) {
     nav a {
-        margin: 5px;
-        padding: 10px 20px;
         display: inline-grid;
         font-size: 1em;
         width: 10vw;
-        background: #0b2323;
         justify-content: center;
     }
     nav a span{

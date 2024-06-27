@@ -76,14 +76,14 @@ i.fa-discord:hover {
     font-weight: 600;
     display: inline-block;
     width: 133px; 
-    text-shadow: -2px -2px rgba(255, 69, 0, 0.5), 2px 2px rgba(255, 69, 0, 0.2);
+    text-shadow: -1px -1px rgba(255, 69, 0, 0.1), 1px 1px rgba(255, 69, 0, 0.1);
 }
 .logo h1:nth-last-child(1) {
     letter-spacing: -5px;
     font-weight: 100;
     display: inline-block;
     width: 133px;
-    text-shadow: -2px -2px rgba(255, 69, 0, 0.2), 2px 2px rgba(255, 69, 0, 0.5);
+    text-shadow: -1px -1px rgba(255, 69, 0, 0.1), 1px 1px rgba(255, 69, 0, 0.1);
 }
 header h1 {
     margin: 0;
@@ -132,8 +132,8 @@ nav a:hover {
 .content {
     padding: 20px;
     text-align: left;
-    border-bottom: 1px solid #63E6BE;
-    border-top: 1px solid #63E6BE;
+    border-bottom: 1px solid rgba(99, 230, 190, 0.8);
+    border-top: 1px solid rgba(99, 230, 190, 0.8);
 }
 .content h2, h3 {
     display: none;

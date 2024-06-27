@@ -57,7 +57,6 @@ footer .linktree {
 }
 
 .linktree:hover {
-    filter: saturate(500%) hue-rotate(66.4deg) brightness(1.5);
     transform: scale(1.1);
 }
 
@@ -133,8 +132,8 @@ nav a:hover {
 .content {
     padding: 20px;
     text-align: left;
-    border-bottom: 1px solid rgb(11, 35, 35);
-    border-top: 1px solid rgb(11, 35, 35);
+    border-bottom: 1px solid #63E6BE;
+    border-top: 1px solid #63E6BE;
 }
 .content h2, h3 {
     display: none;

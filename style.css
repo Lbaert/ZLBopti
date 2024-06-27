@@ -134,7 +134,7 @@ nav a:hover {
     display: none;
 }
 .content p, .content ul {
-    line-height: 2vh;
+    line-height: calc(1vh + 1em);
 }
 .button {
     display: flex;
@@ -173,9 +173,6 @@ details[open] summary {
 }
 details[open], details:hover {
     border: 1px solid greenyellow;
-}
-details p {
-    font-size:95%;
 }
 
 em {

@@ -265,5 +265,6 @@ em {
     }
     .fa-solid {
         text-align: center;
+        padding: 0;
     }
 }

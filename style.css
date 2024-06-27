@@ -135,6 +135,7 @@ nav a:hover {
 }
 .content p, .content ul {
     line-height: calc(1vh + 1em);
+    margin: 2vh 20px;
 }
 .button {
     display: flex;
@@ -236,9 +237,6 @@ em {
     }
     .content {
         padding: 5vh 20px;
-    }
-    .content p {
-        margin: 2vh 20px;
     }
     header, footer {
         margin: 5vh 0;

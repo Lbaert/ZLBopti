@@ -48,7 +48,6 @@ footer .fa-discord {
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 footer .linktree {
-    width: 50px;
     background-color: #0b2323;
     padding: 5px 10px;
     border-radius: 20px;
@@ -218,12 +217,15 @@ em {
     .fa-solid {
         text-align: center;
     }
+    .content p {
+        margin: 2vh 0;
+    }
 
 }
 
 @media (min-height: 1000px) {
     html, body {
-        height: 100%;
+        height: 98%;
         display: flex;
         align-items: center;
         justify-content: center;
